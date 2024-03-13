@@ -1,0 +1,669 @@
+.games .circle {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center
+}
+
+.games .circle a {
+    color: #666
+}
+
+.games .circle a:hover {
+    text-decoration: none
+}
+
+.games .circle img {
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.2);
+    margin: 0 0 10px;
+    border: 7px solid #fff;
+    width: 200px
+}
+
+.games .circle img:hover {
+    transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -o-transform: scale(1.03)
+}
+
+.games .circle .title {
+    display: block;
+    margin: 5px 0 0;
+    font-size: 1em
+}
+
+.game-wrapper {
+    width: 100%;
+    float: left;
+    background-color: #bae6f6;
+    border: 10px solid #fafafa;
+    padding: 30px ! important;
+    margin: 40px 0;
+    position: relative;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px
+}
+
+.game-wrapper .cover {
+    background: url("/_site_v6/assets/images/css/bg-consola-juegos.png") repeat 0% 0%
+}
+
+.game-wrapper .cover.colorear {
+    background: url("/_site_v6/assets/images/css/bg-tool-colorear.jpg") repeat 0% 0%;
+    height: 100% ! important
+}
+
+.game-wrapper .cover, .game-wrapper .cover img {
+    width: 100%;
+    float: left;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-top-right-radius: 30px;
+    -moz-border-radius-topleft: 30px;
+    -moz-border-radius-topright: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 0 ! important
+}
+
+.game-wrapper .row {
+    margin: 0
+}
+
+.how {
+    position: relative;
+    width: 100%;
+    float: left;
+    z-index: 2
+}
+
+.how a {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 30px;
+    color: #fff;
+    width: 170px;
+    height: 170px;
+    padding-top: 40px;
+    float: left;
+    text-align: center;
+    border: 10px solid #f0f0f0;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    position: absolute;
+    right: 80px;
+    top: -100px;
+    box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.10);
+    background: rgba(47,169,251,1);
+    background: -moz-linear-gradient(top, rgba(47,169,251,1) 0%, rgba(9,140,215,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(47,169,251,1)), color-stop(100%, rgba(9,140,215,1)));
+    background: -webkit-linear-gradient(top, rgba(47,169,251,1) 0%, rgba(9,140,215,1) 100%);
+    background: -o-linear-gradient(top, rgba(47,169,251,1) 0%, rgba(9,140,215,1) 100%);
+    background: -ms-linear-gradient(top, rgba(47,169,251,1) 0%, rgba(9,140,215,1) 100%);
+    background: linear-gradient(to bottom, rgba(47,169,251,1) 0%, rgba(9,140,215,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2fa9fb', endColorstr='#098cd7', GradientType=0 )
+}
+
+.how a:hover {
+    background: rgba(47,169,251,1);
+    background: -moz-linear-gradient(top, rgba(47,169,251,1) 0%, rgba(35,153,232,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(47,169,251,1)), color-stop(100%, rgba(35,153,232,1)));
+    background: -webkit-linear-gradient(top, rgba(47,169,251,1) 0%, rgba(35,153,232,1) 100%);
+    background: -o-linear-gradient(top, rgba(47,169,251,1) 0%, rgba(35,153,232,1) 100%);
+    background: -ms-linear-gradient(top, rgba(47,169,251,1) 0%, rgba(35,153,232,1) 100%);
+    background: linear-gradient(to bottom, rgba(47,169,251,1) 0%, rgba(35,153,232,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2fa9fb', endColorstr='#2399e8', GradientType=0 )
+}
+
+.box-how {
+    position: absolute;
+    width: 50%;
+    float: left;
+    z-index: 3;
+    top: 50px;
+    left: 50px;
+    background-color: rgba(218,241,250,1);
+    padding: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px
+}
+
+.box-how header h3 {
+    margin: 0 0 20px 0 ! important;
+    background-color: #00aced;
+    padding: 5px 20px ! important;
+    color: #fff ! important;
+    width: auto;
+    float: left;
+    font-size: 1.8em ! important;
+    -moz-border-radius: 50px 30px / 80px 20px;
+    -webkit-border-radius: 50px 30px / 80px 20px;
+    border-radius: 50px 30px / 80px 20px
+}
+
+.box-how p {
+    width: 100%;
+    float: left;
+    color: #666;
+    font-size: 0.8em
+}
+
+.box-how .caret {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid rgba(218,241,250,1);
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    right: -23px
+}
+
+.box-plugin {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+    width: 80%;
+    z-index: 3;
+    border: 5px solid #f0f0f0;
+    background-color: rgba(255,255,255,1);
+    padding: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px
+}
+
+.box-plugin header h3 {
+    margin: 0 0 20px 0 ! important;
+    padding: 5px 0px ! important;
+    color: #e02741 ! important;
+    width: auto;
+    float: left;
+    font-size: 1.8em ! important;
+    font-weight: bold
+}
+
+.box-plugin p {
+    width: 100%;
+    float: left;
+    color: #666;
+    font-size: 0.8em
+}
+
+.box-plugin i {
+    margin-left: 10px
+}
+
+.game-wrapper .play {
+    position: absolute;
+    z-index: 1;
+    left: 45%;
+    top: 45%
+}
+
+.game-wrapper .bt-play {
+    background-color: #fff;
+    border: 10px solid #f0f0f0;
+    color: #666;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    font-size: 2em;
+    width: 100px;
+    height: 100px
+}
+
+.game-wrapper .bt-play:hover {
+    background-color: #fafafa;
+    border: 10px solid #f0f0f0;
+    color: #666
+}
+
+.game-wrapper .social-actions {
+    padding: 10px 20px;
+    background-color: #e7f6fc
+}
+
+.game-wrapper .tags-age {
+    padding: 10px 20px;
+    background-color: #daf1fa;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    -moz-border-radius-bottomright: 30px;
+    -moz-border-radius-bottomleft: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+.game-wrapper .actions a {
+    color: #00aced
+}
+
+.game-wrapper .actions a:hover {
+    color: #0085cf
+}
+
+.game-wrapper .actions a i {
+    font-size: 2.1em;
+    padding: 0px 10px;
+    border-left: 2px solid #c1e7f6
+}
+
+.game-wrapper .message {
+    background-color: #fff;
+    border: 1px solid #c1e7f6;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    width: auto;
+    float: right;
+    margin-top: 5px
+}
+
+.game-wrapper .message p {
+    vertical-align: middle;
+    padding: 7px 20px 0px 20px;
+    font-size: 0.8em
+}
+
+.game-wrapper .actions a:hover {
+    color: #0085cf
+}
+
+.game-wrapper .age {
+    font-family: "handlee";
+    color: #0085cf;
+    font-size: 2em
+}
+
+.game-wrapper .tags a {
+    background-color: #fff;
+    padding: 3px 10px;
+    line-height: 3em;
+    font-size: 1em;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px
+}
+
+.game-wrapper .tags .slick-slider {
+    width: 80%;
+    float: left
+}
+
+.game-wrapper .tags .slick-dots {
+    display: none ! important
+}
+
+.game-wrapper .tags .slick-next {
+    right: -10px
+}
+
+.game-wrapper .tags .slick-prev {
+    left: -10px
+}
+
+.game-wrapper .tags .slick-prev::before, .game-wrapper .tags .slick-next::before {
+    -moz-osx-font-smoothing: grayscale;
+    color: #00aced;
+    font-size: 40px;
+    font-family: "FontAwesome";
+    line-height: 1;
+    opacity: 0.75
+}
+
+.resume header h2 {
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #444;
+    margin-bottom: 20px ! important
+}
+
+.resume .item {
+    border-bottom: 1px solid #f0f0f0;
+    float: left;
+    margin: 0px 0 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    min-height: 150px
+}
+
+.resume .item .image {
+    float: left;
+    width: 40%;
+    position: relative
+}
+
+.resume .image img {
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    height: auto;
+    max-width: 80%;
+    width: 80%
+}
+
+.resume .image .no-available {
+    width: 100%;
+    float: left;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.resume .image .no-available img {
+    margin: 0 auto 10px auto;
+    width: 200px;
+    background: rgba(0,0,0,0.50)
+}
+
+.resume .image.no-available img:hover {
+    transform: none ! important
+}
+
+.resume .item .txt {
+    float: right;
+    width: 60%
+}
+
+.resume .item .txt header {
+    margin: 0 0 5px 0! important
+}
+
+.resume .item .txt h3 {
+    margin: 0;
+    padding: 0;
+    color: #0085cf ! important;
+    font-size: 1.3em
+}
+
+.resume .item .txt p {
+    font-size: 1em ! important
+}
+
+.resume .item .info {
+    font-family: "handlee";
+    color: #fff;
+    font-size: 1em;
+    width: auto;
+    margin: 0 0 20px 0;
+    float: left;
+    background-color: #e11392;
+    padding: 1px 10px 1px;
+    text-transform: none;
+    transform: rotate(-3deg);
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    z-index: 2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.2)
+}
+
+.resume .handle {
+    font-family: "handlee";
+    color: #e11392;
+    font-weight: normal;
+    font-size: 0.5em;
+    float: left;
+    width: auto;
+    margin: 0 0 20px 0;
+    transform: rotate(-5deg);
+    position: absolute;
+    right: 30%;
+    top: 85px;
+    z-index: 2
+}
+
+.resume .msg-fav {
+    min-height: 194px;
+    margin: 15px 0 ! important;
+    border-bottom: 1px solid #f0f0f0
+}
+
+.resume .msg p {
+    font-size: 1em;
+    color: #1db4e6 ! important;
+    padding: 0px;
+    font-style: italic;
+    display: block;
+    text-align: center
+}
+
+.resume .msg {
+    border: 5px solid #c7ecf9;
+    border-radius: 10px;
+    padding: 14px 20px;
+    text-align: center;
+    background-color: #fff;
+    width: 85%;
+    margin: 0px auto;
+    width: 100%
+}
+
+.resume .msg-alert {
+    border: 5px solid #d6e9c6;
+    border-radius: 10px;
+    padding: 14px 20px 0;
+    text-align: center;
+    background-color: #fff;
+    width: 85%;
+    margin: 0px auto;
+    width: 100%
+}
+
+@media only screen and (max-width : 1700px) {
+}
+
+@media only screen and (max-width : 1199px) {
+    .game-wrapper .cover.colorear {
+        background:url("/_site_v6/assets/images/css/bg-tool-colorear2.jpg") repeat 0% 0%;
+        height: 100% ! important
+    }
+
+    .resume .item .info {
+        font-size: 0.8em;
+        top: 5px
+    }
+}
+
+@media only screen and (max-width : 991px) {
+    .game-wrapper .tags a {
+        font-size:0.8em
+    }
+
+    .game-wrapper .actions a i {
+        font-size: 1.6em;
+        margin-top: 8px;
+        padding: 0px 5px;
+        border-left: 1px solid #c1e7f6
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .game-wrapper {
+        border:5px solid #fafafa;
+        padding: 10px ! important;
+        margin: 0;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        margin: 60px 0 0
+    }
+
+    .game-wrapper .cover, .game-wrapper .cover img {
+        -webkit-border-top-left-radius: 10px;
+        -webkit-border-top-right-radius: 10px;
+        -moz-border-radius-topleft: 10px;
+        -moz-border-radius-topright: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px
+    }
+
+    .game-wrapper .actions a i {
+        font-size: 1.8em
+    }
+
+    .game-wrapper .social-actions, .game-wrapper .social, .game-wrapper .actions {
+        padding-left: 5px;
+        padding-right: 5px
+    }
+
+    .game-wrapper .play {
+        left: 40%;
+        top: 40%
+    }
+
+    .game-wrapper .bt-play {
+        border: 5px solid #f0f0f0;
+        font-size: 1.2em;
+        width: 60px;
+        height: 60px
+    }
+
+    .box-how {
+        width: 100%;
+        bottom: 0px;
+        left: 0px
+    }
+
+    .how a {
+        font-size: 1.2em;
+        line-height: 20px;
+        width: 100px;
+        height: 100px;
+        padding-top: 25px;
+        border: 5px solid #f0f0f0;
+        right: 20px;
+        top: -80px
+    }
+
+    .resume .image img {
+        width: 100%
+    }
+
+    .resume .item .image {
+        width: 100%;
+        text-align: center
+    }
+
+    .resume .item .txt {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        text-align: center
+    }
+}
+
+@media only screen and (max-width : 600px) {
+}
+
+@media only screen and (min-width : 1441px) and (max-width : 1600px) {
+    .resume header h2 {
+        font-size:2.5em
+    }
+
+    .resume .handle {
+        font-size: 0.5em
+    }
+
+    .resume .item .txt h3 {
+        font-size: 1.3em
+    }
+}
+
+@media only screen and (min-width : 1281px) and (max-width : 1440px) {
+    .resume header h2 {
+        font-size:2.5em
+    }
+
+    .resume .handle {
+        font-size: 0.5em
+    }
+
+    .resume .item .txt h3 {
+        font-size: 1.3em
+    }
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1280px) {
+    .resume header h2 {
+        font-size:2.3em
+    }
+
+    .resume .handle {
+        font-size: 0.5em
+    }
+
+    .resume .item .txt h3 {
+        font-size: 1.3em
+    }
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1199px) {
+    .resume header h2 {
+        font-size:2em
+    }
+
+    .resume .handle {
+        font-size: 0.6em;
+        top: 75px
+    }
+
+    .resume .item .txt h3 {
+        font-size: 1.3em
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+    .resume header h2 {
+        font-size:2em
+    }
+
+    .resume .handle {
+        font-size: 0.6em;
+        top: 65px
+    }
+
+    .resume .item .txt h3 {
+        font-size: 1.2em
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .resume header h2 {
+        font-size:1.8em
+    }
+
+    .resume .handle {
+        font-size: 0.6em;
+        top: 60px
+    }
+
+    .resume .item .txt h3 {
+        font-size: 1.2em
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .resume header h2 {
+        font-size:1.8em
+    }
+
+    .resume .handle {
+        font-size: 0.6em;
+        top: 60px
+    }
+
+    .resume .item .txt h3 {
+        font-size: 1.2em
+    }
+}
