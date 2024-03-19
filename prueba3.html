@@ -139,8 +139,8 @@
   <header class="header">
     <h1><strong>¡Practiquemos Restas!</strong></h1>
   </header>
-  <audio id="audioCorrect" src="niños.mp3"></audio>
-  <audio id="audioIncorrect" src="burro.mp3"></audio>
+  <audio id="audioC" src="Niños.mp3"></audio>
+  <audio id="audioI" src="burro.mp3"></audio>
 
   <div id="gif-container" onclick="hideGif()">
     <img src="correct.gif" alt="Correcto">
@@ -215,12 +215,12 @@
 
     if (userAnswer === correctAnswer) {
         resultDisplay.innerText = '¡Correcto!';
-        document.getElementById('audioCorrect').play();
+        document.getElementById('audioC').play();
         gifContainer.innerHTML = '<img src="cor.gif" alt="Correcto">';
         gifContainer.style.display = 'block';
     } else {
         resultDisplay.innerText = 'Respuesta incorrecta. Inténtalo de nuevo.';
-        document.getElementById('audioIncorrect').play();
+        document.getElementById('audioI').play();
         gifContainer.innerHTML = '<img src="mal.gif" alt="Incorrecto">';
         gifContainer.style.display = 'block';
     }
