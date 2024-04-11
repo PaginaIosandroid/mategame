@@ -133,6 +133,22 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
+bot
+{
+position: absolute; 
+top: 120px; left: 250px; background: transparent; 
+border: none; 
+cursor: pointer;
+}
+ @media screen and (max-width: 768px) 
+{
+            .bot {
+position: absolute; 
+top: 80px; left: 40px; background: transparent; 
+border: none; 
+cursor: pointer;
+            }
+}
   </style>
 </head>
 <body>
@@ -159,8 +175,7 @@
         <input class="caja" type="text" id="answer" placeholder="Escribe tu respuesta">
         <button onclick="checkAnswer()">Comprobar</button>
         <button onclick="generateNumbers()">Nueva Multiplicación</button>
-	<button onclick="window.location.href='index.html'" style="position: absolute; top: 120px; left: 250px; background: transparent; border: none; cursor: pointer;">
-    <img src="reg.jpg" alt="Regresar" style="width: 50px; height: 48px;">
+	<button onclick="window.location.href='index.html'" class="bot" <img src="reg.jpg" alt="Regresar" style="width: 50px; height: 48px;>
 </button>
         <p id="result"></p>
       </div>
