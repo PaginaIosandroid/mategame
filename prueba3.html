@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -133,6 +133,19 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
+	#bor {
+    position: relative; /* Asegura que el botón se posicione relativo a este contenedor */
+}
+
+#regb {
+    position: absolute;
+    top: 10px; /* Distancia desde la parte superior */
+    left: 10px; /* Distancia desde el lado izquierdo */
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1; /* Asegura que el botón esté por encima del contenido del pizarrón */
+}
   </style>
 </head>
 <body>
@@ -146,7 +159,7 @@
     <img src="correct.gif" alt="Correcto">
   </div>
 
-  <div class="pizarron">
+  <div class="pizarron" id="bor">
     <h2 align="center"><strong>¡Practiquemos RESTAS!</strong></h2>
     <div class="sum">
       <div class="numbers">
@@ -159,7 +172,7 @@
         <input class="caja" type="text" id="answer" placeholder="Escribe tu respuesta">
         <button onclick="checkAnswer()">Comprobar</button>
         <button onclick="generateNumbers()">Nueva Resta</button>
-	<button onclick="window.location.href='index.html'" style="position: absolute; top: 120px; left: 250px; background: transparent; border: none; cursor: pointer;">
+	<button id="regb" onclick="window.location.href='index.html'" style="position: absolute; top: 120px; left: 250px; background: transparent; border: none; cursor: pointer;">
     <img src="reg.jpg" alt="Regresar" style="width: 50px; height: 48px;">
         <p id="result"></p>
       </div>
